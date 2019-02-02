@@ -1,8 +1,8 @@
 export default {
-  apiKey: 'AIzaSyAHshJehJ-E_9AoUN3kfY8BLvZtFoXxFto',
-  authDomain: 'react-native-starter-app.firebaseapp.com',
-  databaseURL: 'https://react-native-starter-app.firebaseio.com',
-  projectId: 'react-native-starter-app',
-  storageBucket: 'react-native-starter-app.appspot.com',
-  messagingSenderId: '762822550667',
+  apiKey: 'AIzaSyA8OF7ifbGdL0Nx1y32J-5GKBMkS_Wk4wU',
+  authDomain: 'khalayponpyin.firebaseapp.com',
+  databaseURL: 'https://khalayponpyin.firebaseio.com',
+  projectId: 'khalayponpyin',
+  storageBucket: 'khalayponpyin.appspot.com',
+  messagingSenderId: '439670742473',
 };

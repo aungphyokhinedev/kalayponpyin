@@ -38,6 +38,7 @@ export default function recipeReducer(state = initialState, action) {
           author: item.author,
           ingredients: item.ingredients,
           method: item.method,
+          sound: item.sound,
         }));
       }
 

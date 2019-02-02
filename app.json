@@ -1,9 +1,25 @@
 {
   "expo": {
     "sdkVersion": "29.0.0",
-    "name": "React Native Starter Kit",
-    "slug": "react-native-starter-kit",
-    "icon": "src/images/app-icon.png",
-    "privacy": "public"
+    "version": "2.0.0",
+    "name": "Kha Lay Pon Pyin",
+    "slug": "kha-lay-pon-pyin",
+    "icon": "src/images/klogo.png",
+    "privacy": "public",
+    "splash": {
+      "image": "src/images/splashnew.png",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.cybernetics.khalayponpyin",
+      "versionCode": 3,
+      "permissions": [
+        "default" 
+      ]
+    }
+  },
+  "ios": {
+    "bundleIdentifier": "com.cybernetics.khalayponpyin"
   }
+
 }

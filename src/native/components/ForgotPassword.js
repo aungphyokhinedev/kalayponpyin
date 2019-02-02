@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  Container, Content, Text, Form, Item, Label, Input, Button,
+  Container, Content, Text, Form, Item, Label, Input, Button, Card, CardItem
 } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 import Loading from './Loading';
@@ -57,14 +57,15 @@ class ForgotPassword extends React.Component {
     return (
       <Container>
         <Content padder>
+          
+
+          <Form>
           <Header
             title="Reset your Password"
             content="No stress, no stress. We'll get you back into your account."
           />
 
           {error && <Messages message={error} />}
-
-          <Form>
             <Item stackedLabel>
               <Label>
                 Email

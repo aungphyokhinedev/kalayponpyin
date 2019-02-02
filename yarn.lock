@@ -8880,7 +8880,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -9211,6 +9211,18 @@ react-native-scripts@1.14.0:
     qrcode-terminal "^0.11.0"
     rimraf "^2.6.1"
     xdl "48.1.4"
+
+react-native-slider@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-slider/-/react-native-slider-0.11.0.tgz#b68a0bc43c8422b24cd57947cc5ac2bcdb58fadc"
+  integrity sha512-jV9K87eu9uWr0uJIyrSpBLnCKvVlOySC2wynq9TFCdV9oGgjt7Niq8Q1A8R8v+5GHsuBw/s8vEj1AAkkUi+u+w==
+  dependencies:
+    prop-types "^15.5.6"
+
+react-native-sound-player@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-sound-player/-/react-native-sound-player-0.6.1.tgz#71c9e00a28de380c3f61c531a0bd67062ba39b64"
+  integrity sha512-kekTeR109GUbIxno9Xr6J5rfCu8cvbSZkRwBqmpG/KRTwv4W0wHbbQsLAQA5TXfdZxaY9b521LIu4M9VtquJ4Q==
 
 react-native-svg@6.2.2:
   version "6.2.2"

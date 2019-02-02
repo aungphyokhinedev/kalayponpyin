@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  Container, Content, Text, Form, Item, Label, Input, Button,
+  Container, Content, Text, Form, Item, Label, Input, Button, Card, CardItem
 } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 import Loading from './Loading';
@@ -54,15 +54,19 @@ class SignUp extends React.Component {
 
     return (
       <Container>
-        <Content padder>
+        <Content>
+
+            <Content padder>
+        
+  
+         
+          <Form>
           <Header
             title="Welcome"
             content="We're glad to welcome you to the community. There's only a few questions and you'll be on your way."
           />
+           {error && <Messages message={error} />}
 
-          {error && <Messages message={error} />}
-
-          <Form>
             <Item stackedLabel>
               <Label>
                 First Name
@@ -110,6 +114,7 @@ class SignUp extends React.Component {
               </Text>
             </Button>
           </Form>
+          </Content>
         </Content>
       </Container>
     );

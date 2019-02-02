@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {
-  Container, Content, Form, Item, Label, Input, Text, Button, View,
+  Container, Content, Form, Item, Label, Input, Text, Button, View, Card, CardItem
 } from 'native-base';
 import { Actions } from 'react-native-router-flux';
 import Loading from './Loading';
@@ -66,17 +66,17 @@ class Login extends React.Component {
 
     return (
       <Container>
-        <Content>
-          <View padder>
-            <Header
+         
+          <Content>
+           
+
+          <Form>
+          <Header
               title="Welcome back"
               content="Please use your email and password to login."
             />
             { success ? <Messages type="success" message={success} /> : null }
             { error ? <Messages message={error} /> : null }
-          </View>
-
-          <Form>
             <Item stackedLabel>
               <Label>
                 {translate('Email', locale)}
@@ -108,7 +108,8 @@ class Login extends React.Component {
               </Button>
             </View>
           </Form>
-        </Content>
+          </Content>
+         
       </Container>
     );
   }

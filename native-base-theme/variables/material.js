@@ -25,7 +25,7 @@ export default {
   badgePadding: 0,
 
   // Button
-  btnFontFamily: "Roboto",
+  btnFontFamily: "notosan",
   btnDisabledBg: "#b5b5b5",
   buttonPadding: 6,
   get btnPrimaryBg() {
@@ -107,7 +107,7 @@ export default {
   fontFamily: "Roboto",
   fontSizeBase: 15,
   get fontSizeH1() {
-    return this.fontSizeBase * 1.8;
+    return 32;
   },
   get fontSizeH2() {
     return this.fontSizeBase * 1.6;
@@ -173,7 +173,7 @@ export default {
   btnLineHeight: 19,
   lineHeightH1: 32,
   lineHeightH2: 27,
-  lineHeightH3: 22,
+  lineHeightH3: 28,
   lineHeight: 24,
 
   // List
@@ -229,7 +229,7 @@ export default {
   },
 
   // Title
-  titleFontfamily: "Roboto",
+  titleFontfamily: "notosan",
   titleFontSize: 19,
   subTitleFontSize: 14,
   subtitleColor: "#FFF",

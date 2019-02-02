@@ -1,24 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { View } from 'react-native';
-import { Text, H1 } from 'native-base';
+import { Text } from 'native-base';
 import Spacer from './Spacer';
 
 const Header = ({ title, content }) => (
-  <View>
-    <Spacer size={25} />
-    <H1>
+  <View style={{margin:15}}>
+    <Spacer size={15} />
+    <Text style={{fontSize: 25}}>
       {title}
-    </H1>
+    </Text>
     {!!content && (
       <View>
-        <Spacer size={10} />
-        <Text>
+        <Spacer size={5} />
+        <Text style={{ fontFamily: 'unicode' }}>
           {content}
         </Text>
       </View>
     )}
-    <Spacer size={25} />
   </View>
 );
 

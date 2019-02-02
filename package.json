@@ -71,6 +71,8 @@
     "react-dom": "^16.3.1",
     "react-native": "~0.55.4",
     "react-native-router-flux": "4.0.1",
+    "react-native-slider": "^0.11.0",
+    "react-native-sound-player": "^0.6.1",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "reactstrap": "^6.4.0",
@@ -78,5 +80,10 @@
     "redux-persist": "^5.9.1",
     "redux-thunk": "^2.2.0",
     "sugarss": "^2.0.0"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/res/fonts/"
+    ]
   }
 }

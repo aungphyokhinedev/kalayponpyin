@@ -6,6 +6,7 @@ export default (variables = variable) => {
     fontSize: variables.fontSizeH2,
     lineHeight: variables.lineHeightH2,
     fontWeight: '900',
+    paddingTop: 10,
   };
 
   return h2Theme;

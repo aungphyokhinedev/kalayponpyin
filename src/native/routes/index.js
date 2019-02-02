@@ -40,9 +40,10 @@ const Index = (
         {...DefaultProps.tabProps}
       >
         <Stack
+          hideNavBar
           key="home"
           title={AppConfig.appName.toUpperCase()}
-          icon={() => <Icon name="planet" {...DefaultProps.icons} />}
+          icon={() => <Icon name="home" {...DefaultProps.icons} />}
           {...DefaultProps.navbarProps}
         >
           <Scene key="home" component={AboutComponent} />
@@ -50,7 +51,7 @@ const Index = (
 
         <Stack
           key="recipes"
-          title="RECIPES"
+          title="STORIES"
           icon={() => <Icon name="book" {...DefaultProps.icons} />}
           {...DefaultProps.navbarProps}
         >
@@ -112,7 +113,7 @@ const Index = (
       back
       clone
       key="recipe"
-      title="RECIPE"
+      title="STORY"
       {...DefaultProps.navbarProps}
       component={RecipesContainer}
       Layout={RecipeViewComponent}

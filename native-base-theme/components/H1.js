@@ -6,6 +6,8 @@ export default (variables = variable) => {
     fontSize: variables.fontSizeH1,
     lineHeight: variables.lineHeightH1,
     fontWeight: '900',
+    textAlignVertical: 'center',
+    paddingTop: 10,
   };
 
   return h1Theme;
